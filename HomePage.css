@@ -1,0 +1,48 @@
+.cl-body {
+  background-color: lemonchiffon;
+}
+.cl-div {
+  background-color: skyblue;
+  padding: 10px;
+  text-align: center;
+  margin: 0px 40px 40px 40px;
+}
+.cl-img {
+  background-color: lightpink;
+  padding: 20px;
+  width: 800px;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right: 40px;
+}
+.cl-h2 {
+  background-color: lightyellow;
+  text-align: center;
+  padding: 20px;
+  margin: 20px 40px 40px 40px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: skyblue;
+}
+
+.topnav a {
+  background-color: skyblue;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
