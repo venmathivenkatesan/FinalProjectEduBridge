@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/view/CSS/Dealer_login.css" />
+    <script src="/view/JS/Dealer_login.js"></script>
+    <title>Dealer login page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="label">Dealer login</h1>
+      <label for="" class="label-name">user name</label>
+      <input
+        type="text"
+        id="usrFname"
+        onblur="checkAlpha()"
+        class="type-text"
+        placeholder="enter name"
+        required
+      />
+      <label for="" class="label-name">Password</label>
+      <input
+        type="password"
+        class="type-text"
+        placeholder=" enter password"
+        required
+      />
+      <br />
+      <center>
+        <button type="submit" class="btn-login">
+          <a href="DealerPage.html">login</a>
+        </button>
+
+        <div class="container signin">
+          <h3>
+            <p>
+              Dont't have an account?
+              <a href="Dealer_Registration.html">Click here for Registration</a
+              >.
+            </p>
+          </h3>
+        </div>
+      </center>
+    </div>
+  </body>
+</html>
